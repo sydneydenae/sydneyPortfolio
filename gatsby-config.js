@@ -1,61 +1,35 @@
-require(`dotenv`).config({
-  path: `.env`,
-})
-
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-
 module.exports = {
-  siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // Of course you can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-  },
   plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
     {
-      resolve: `@lekoarts/gatsby-theme-cara`,
-      // See the theme's README for all available options
-      options: {},
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Gatsby Simplefolio`,
+        short_name: `Simplefolio`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#fff`,
+        theme_color: `#02aab0`,
         display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        icon: 'src/images/favicon.png',
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-    shouldAnalyseBundle && {
-      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
-      options: {
-        analyzerMode: `static`,
-        reportFilename: `_bundle.html`,
-        openAnalyzer: false,
-      },
-    },
-  ].filter(Boolean),
-}
+  ],
+};
