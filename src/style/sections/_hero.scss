@@ -21,6 +21,27 @@
   background-position: center;
   background-size: cover; */
 
+  /* code from codepen; Moving Background---------------------------------*/
+    background-image: url("https://i.pinimg.com/originals/0a/f3/bc/0af3bca9a346a90010887620a8d9a153.jpg");
+    background-position: center bottom;
+    animation: animatedBackground 30s linear infinite;
+    /* Safari and Chrome: */
+    -webkit-animation: animatedBackground 30s linear infinite;
+  
+  @keyframes animatedBackground 
+  {
+    from { background-position: 0 100%; }
+    to { background-position: 100% 100%; }
+  }
+  @-webkit-keyframes  animatedBackground 
+  {
+    from { background-position: 0 100%; }
+    to { background-position: 100% 100%; }
+  }
+  /*Inspired by vollnixx*/
+ /*code from copepen-----------------------------------------*/
+
+
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
