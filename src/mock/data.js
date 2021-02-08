@@ -22,16 +22,17 @@ export const aboutData = {
     "I'm currently a software engineer intern at MASTERMIND tech pipeline company with four years of prior experience through Western Tech's computer science pathway. I'm entering college to pursue a degree im computer science and apply my knowledge in hopes of creating social change. ",
   paragraphTwo: '  ',
   paragraphThree: '  ',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://www.canva.com/design/DAD__8vooH4/bm79OR8Oo-wWU3bvX7nK7w/view?utm_content=DAD__8vooH4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg', // change this pic
+    img: 'myPortfolio.png', // change this pic
     title: 'My Portfolio',
-    info: 'Made using Gatsby and CSS',
+    info: 'Made using Gatsby, CSS, HTML, and React',
     info2: '',
     url: 'https://sydneydenae.com/',
     repo: 'https://github.com/sydneydenae/sydneyPortfolio', // if no repo, the button will not show up
