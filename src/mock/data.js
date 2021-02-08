@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: "Syd's Portfolio", // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -29,11 +29,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project.jpg', // change this pic
     title: 'My Portfolio',
-    info: 'Made using gatsby',
+    info: 'Made using Gatsby and CSS',
     info2: '',
-    url: 'sydneydenae.com',
+    url: 'https://sydneydenae.com/',
     repo: 'https://github.com/sydneydenae/sydneyPortfolio', // if no repo, the button will not show up
   },
   // {
@@ -66,11 +66,11 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'codepen',
@@ -84,7 +84,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'github.com/sydneydenae',
+      url: 'https://github.com/sydneydenae',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/sydneydenae/?hl=en',
     },
   ],
 };
