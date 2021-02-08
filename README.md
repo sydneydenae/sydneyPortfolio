@@ -173,7 +173,7 @@ export const contactData = {
 
 ### Footer Section
 
-You can remove or add as many you social-media icons you want.\
+You can remove or add as many you social-media icons you want.
 Just put an object with the corresponding values inside the networks `array` or remove it from there.
 
 ```javascript
