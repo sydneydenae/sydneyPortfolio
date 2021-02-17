@@ -26,11 +26,7 @@ export const projectsData = [
 ];
 
 // CONTACT DATA
-export const contactData = {
-  cta: 'Would you like to work with me? Great!',
-  btn: "Let's Talk",
-  email: 'sydney@sydneydenae.com',
-};
+export const contactData = {};
 
 // FOOTER DATA
 export const footerData = {
