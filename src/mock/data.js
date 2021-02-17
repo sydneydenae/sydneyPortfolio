@@ -15,13 +15,8 @@ export const heroData = {
   cta: '',
 };
 
-// ABOUT DATA
+// ABOUT DATA -- I can use this section to override values in the About.jsx section such as img, resume, or paragraphOne
 export const aboutData = {
-  img: 'headshot.jpg',
-  paragraphOne:
-    "I'm currently a software engineer intern at MASTERMIND tech pipeline company with four years of prior experience through Western Tech's computer science pathway. I'm entering college to pursue a degree in computer science and apply my knowledge in hopes of creating social change. ",
-  paragraphTwo: '  ',
-  paragraphThree: '  ',
   resume:
     'https://www.canva.com/design/DAD__8vooH4/bm79OR8Oo-wWU3bvX7nK7w/view?utm_content=DAD__8vooH4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
 };
