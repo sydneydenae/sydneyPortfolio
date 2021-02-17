@@ -22,10 +22,9 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            Hi, my name is
-            <span className="text-color-main">Sydney Stokes</span>
+            Hi, my name is <span className="text-color-main">Sydney Stokes</span>
             <br />
-            and Im a Software Developer.
+            and I&apos;m a Software Developer.
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
