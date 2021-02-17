@@ -1,11 +1,7 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
-export const headData = {
-  title: "Syd's Portfolio", // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
-};
+// HEAD DATA -- I can use this section to override constants in the index.js section
+export const headData = {};
 
 // HERO DATA -- I can use this section to override constants in the Hero.jsx section
 export const heroData = {};
@@ -27,24 +23,6 @@ export const projectsData = [
     url: 'https://sydneydenae.com/',
     repo: 'https://github.com/sydneydenae/sydneyPortfolio', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
 ];
 
 // CONTACT DATA
@@ -57,11 +35,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'codepen',
