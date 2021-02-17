@@ -7,15 +7,10 @@ export const headData = {
   description: '', // e.g: Welcome to my website
 };
 
-// HERO DATA
-export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Sydney Stokes',
-  subtitle: "and I'm a Software Developer",
-  cta: '',
-};
+// HERO DATA -- I can use this section to override constants in the Hero.jsx section
+export const heroData = {};
 
-// ABOUT DATA -- I can use this section to override values in the About.jsx section such as img, resume, or paragraphOne
+// ABOUT DATA -- I can use this section to override constants in the About.jsx section
 export const aboutData = {
   resume:
     'https://www.canva.com/design/DAD__8vooH4/bm79OR8Oo-wWU3bvX7nK7w/view?utm_content=DAD__8vooH4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
