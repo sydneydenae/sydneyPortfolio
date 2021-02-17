@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'myPortfolio.png', // change this pic
+    img: 'portfolioPic.jpg', // change this pic
     title: 'My Portfolio',
     info: 'Made using Gatsby, CSS, HTML, and React',
     info2: '',
