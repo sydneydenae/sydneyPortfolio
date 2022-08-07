@@ -9,7 +9,7 @@ export const heroData = {};
 // ABOUT DATA -- I can use this section to override constants in the About.jsx section
 export const aboutData = {
   resume:
-    'https://www.canva.com/design/DAD__8vooH4/bm79OR8Oo-wWU3bvX7nK7w/view?utm_content=DAD__8vooH4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton', // if no resume, the button will not show up
+    'https://www.canva.com/design/DAEs4FrzlGk/yMK9km1Ea0d6cREzNxemlA/view?utm_content=DAEs4FrzlGk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

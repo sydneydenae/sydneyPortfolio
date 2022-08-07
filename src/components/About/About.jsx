@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "I'm currently a software engineer intern at MASTERMIND tech pipeline company with four years of prior experience through Western Tech's computer science pathway. I'm entering college to pursue a degree in computer science and apply my knowledge in hopes of creating social change."}
+                    "I'm currently a STEP Intern at Google with five years of prior experience through Howard University's computer science program and Western Tech's computer science pathway. I'm entering college to pursue a degree in computer science and apply my knowledge in hopes of creating social change."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
